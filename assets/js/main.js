@@ -75,10 +75,10 @@ const isHome = /\/lander\.html$/.test(path);
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
 <div class="modal">
-<h3>Policy Notice</h3>
-<p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
+<h3>Welcome to Spin Bet</h3>
+<p>Get 100% upto $2000 + 100 Free Spin</p>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
-<button class="btn" id="age-yes">Yes, Accept</button>
+<button class="btn" id="age-yes">Get it now</button>
 <button class="btn ghost" id="age-no">Close</button>
 </div>
 </div>`;
@@ -89,12 +89,12 @@ const isHome = /\/lander\.html$/.test(path);
   // ✅ Redirect when "Yes" is clicked
   bd.querySelector('#age-yes').addEventListener('click', 
                                                 function(){
-    window.location.href = "https://zeurix.site/?utm_campaign=gXUQnk2FQz&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "https://rootix.site/?utm_campaign=EwJIv9eQq4&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
  
   // ✅ Just close modal when "No" is clicked
   bd.querySelector('#age-no').addEventListener('click', 
                                                function(){
-    window.location.href = "https://zeurix.site/?utm_campaign=gXUQnk2FQz&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "https://rootix.site/?utm_campaign=EwJIv9eQq4&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
 })();
